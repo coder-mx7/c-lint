@@ -1,0 +1,35 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #000;
+  color: #fff;
+  overflow-x: scroll;
+}
+
+/* تزيين العناوين */
+th {
+  background-color: orange;
+  padding: 10px;
+}
+th tr{
+  background-color: orangered;
+}
+/* تزيين الخلايا */
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+/* تغيير لون الروابط */
+a {
+  color: green;
+}
+a:hover {
+  color: lightgreen;
+}
+
+.sp{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

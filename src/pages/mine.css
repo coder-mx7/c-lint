@@ -1,0 +1,24 @@
+.mine{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  height: auto;
+  align-items: center;
+  margin-top: 20px;
+}
+.mine a{
+  width: 90%;
+  background-color: orangered;
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+  text-align: center;
+  padding: 15px;
+  margin-bottom: 5px;
+  text-transform:inherit;
+}
+.mine a:hover{
+  transform: scale(1.1);
+  background-color: black;
+  color: orangered;
+}

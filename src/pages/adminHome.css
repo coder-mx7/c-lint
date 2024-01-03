@@ -1,0 +1,19 @@
+.contianer{
+  height: calc(100vh - 80px);
+  width: 100%;
+  background: url(../images/R.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contianer h1{
+  width: 100%;
+  background-color: #000;
+  color: orangered;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+.continerTabel{
+  display: flex;
+  width: 100%;
+}
